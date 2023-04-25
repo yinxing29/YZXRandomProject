@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     private lazy var dataSource: [[String: Any]] = {
         return [
             ["title": "画圆", "introductionView": circleView, "pageName": NSStringFromClass(YZXCircleViewController.self)],
-            ["title": "无限轮博", "introductionView": unlimitedRotationView, "pageName": NSStringFromClass(YZXUnlimitedRotationViewController.self)]
+            ["title": "无限轮博", "introductionView": unlimitedRotationView, "pageName": NSStringFromClass(YZXUnlimitedRotationViewController.self)],
+            ["title": "组合按钮动画", "introductionView": btnsAnimationView, "pageName": NSStringFromClass(YZXRectTranslationAnimationViewController.self)]
         ]
     }()
 
@@ -45,6 +46,13 @@ class ViewController: UIViewController {
         return rotationView
     }()
     //MARK: - ---------------------- 无限轮播 END ----------------------
+    
+    //MARK: - 组合按钮动画
+    private let btnsAnimationView: YZXRectTranslationAnimationTestView = {
+        let view = YZXRectTranslationAnimationTestView(frame: CGRect(x: 0.0, y: 0.0, width: 40.0, height: 40.0))
+        return view
+    }()
+    //MARK: - ---------------------- 组合按钮动画 END ----------------------
     
     private lazy var tableView: UITableView = {
         let tab = UITableView(frame: .zero, style: .plain)

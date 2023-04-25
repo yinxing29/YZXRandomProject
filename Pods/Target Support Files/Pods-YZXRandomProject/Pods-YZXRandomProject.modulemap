@@ -1,4 +1,4 @@
-module Pods_YZXRandomProject {
+framework module Pods_YZXRandomProject {
   umbrella header "Pods-YZXRandomProject-umbrella.h"
 
   export *
