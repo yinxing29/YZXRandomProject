@@ -24,6 +24,18 @@ class YZXUnlimitedRotationViewController: UIViewController {
         rotationView.isShowPageControl = true
         rotationView.pageType = .left
         view.addSubview(rotationView)
+        
+        let rotationView1 = YZXUnlimitedRotationView(frame: CGRect(x: 40.0, y: 450.0, width: UIScreen.main.bounds.size.width - 80.0, height: 200.0))
+        rotationView1.backgroundColor = .white
+        rotationView1.delegate = self
+        rotationView1.isShowPageControl = true
+        rotationView1.pageType = .left
+        rotationView1.isAutoScroll = true
+        rotationView1.isRotation = true
+        rotationView1.isStackCard = true
+        rotationView1.viewType = .centerOut
+        rotationView1.tag = 1000
+        view.addSubview(rotationView1)
     }
 }
 

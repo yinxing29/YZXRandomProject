@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040D481D2A03BD4900D51CB1 /* YZXUnlimitedRotationViewCenterOutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D481C2A03BD4900D51CB1 /* YZXUnlimitedRotationViewCenterOutExtension.swift */; };
 		04AF020D29F7C871000964A6 /* YZXPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF020B29F7C871000964A6 /* YZXPageControl.swift */; };
 		04AF020E29F7C871000964A6 /* YZXUnlimitedRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF020C29F7C871000964A6 /* YZXUnlimitedRotationView.swift */; };
 		04AF021029F7C886000964A6 /* YZXUnlimitedRotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF020F29F7C886000964A6 /* YZXUnlimitedRotationViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040D481C2A03BD4900D51CB1 /* YZXUnlimitedRotationViewCenterOutExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZXUnlimitedRotationViewCenterOutExtension.swift; sourceTree = "<group>"; };
 		04AF020B29F7C871000964A6 /* YZXPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZXPageControl.swift; sourceTree = "<group>"; };
 		04AF020C29F7C871000964A6 /* YZXUnlimitedRotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZXUnlimitedRotationView.swift; sourceTree = "<group>"; };
 		04AF020F29F7C886000964A6 /* YZXUnlimitedRotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZXUnlimitedRotationViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				04AF020F29F7C886000964A6 /* YZXUnlimitedRotationViewController.swift */,
+				040D481C2A03BD4900D51CB1 /* YZXUnlimitedRotationViewCenterOutExtension.swift */,
 				04AF020B29F7C871000964A6 /* YZXPageControl.swift */,
 				04AF020C29F7C871000964A6 /* YZXUnlimitedRotationView.swift */,
 			);
@@ -254,6 +257,7 @@
 			files = (
 				04AF021029F7C886000964A6 /* YZXUnlimitedRotationViewController.swift in Sources */,
 				04AF021529F7DAEC000964A6 /* YZXRectTranslationAnimationViewController.swift in Sources */,
+				040D481D2A03BD4900D51CB1 /* YZXUnlimitedRotationViewCenterOutExtension.swift in Sources */,
 				04AF020D29F7C871000964A6 /* YZXPageControl.swift in Sources */,
 				04FE595029F23AFD00BD5D2D /* YZXSingleCircleView.swift in Sources */,
 				04FE593B29F2301F00BD5D2D /* ViewController.swift in Sources */,
