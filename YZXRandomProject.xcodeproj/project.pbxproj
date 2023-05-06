@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		040D481D2A03BD4900D51CB1 /* YZXUnlimitedRotationViewCenterOutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D481C2A03BD4900D51CB1 /* YZXUnlimitedRotationViewCenterOutExtension.swift */; };
+		0428204D2A04DC9C0090D217 /* YZXAlertTransitioningAnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428204C2A04DC9C0090D217 /* YZXAlertTransitioningAnimateViewController.swift */; };
+		0428204F2A04DD0A0090D217 /* YZXAlertTransitioningAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428204E2A04DD0A0090D217 /* YZXAlertTransitioningAnimate.swift */; };
+		042820512A04E37F0090D217 /* YZXAlertTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042820502A04E37F0090D217 /* YZXAlertTestViewController.swift */; };
 		04AF020D29F7C871000964A6 /* YZXPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF020B29F7C871000964A6 /* YZXPageControl.swift */; };
 		04AF020E29F7C871000964A6 /* YZXUnlimitedRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF020C29F7C871000964A6 /* YZXUnlimitedRotationView.swift */; };
 		04AF021029F7C886000964A6 /* YZXUnlimitedRotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF020F29F7C886000964A6 /* YZXUnlimitedRotationViewController.swift */; };
@@ -27,6 +30,9 @@
 
 /* Begin PBXFileReference section */
 		040D481C2A03BD4900D51CB1 /* YZXUnlimitedRotationViewCenterOutExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZXUnlimitedRotationViewCenterOutExtension.swift; sourceTree = "<group>"; };
+		0428204C2A04DC9C0090D217 /* YZXAlertTransitioningAnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZXAlertTransitioningAnimateViewController.swift; sourceTree = "<group>"; };
+		0428204E2A04DD0A0090D217 /* YZXAlertTransitioningAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZXAlertTransitioningAnimate.swift; sourceTree = "<group>"; };
+		042820502A04E37F0090D217 /* YZXAlertTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZXAlertTestViewController.swift; sourceTree = "<group>"; };
 		04AF020B29F7C871000964A6 /* YZXPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZXPageControl.swift; sourceTree = "<group>"; };
 		04AF020C29F7C871000964A6 /* YZXUnlimitedRotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZXUnlimitedRotationView.swift; sourceTree = "<group>"; };
 		04AF020F29F7C886000964A6 /* YZXUnlimitedRotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZXUnlimitedRotationViewController.swift; sourceTree = "<group>"; };
@@ -60,10 +66,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04AF020A29F7C871000964A6 /* YZXUnlimitedRotationView */ = {
+		0428204B2A04DC700090D217 /* YZXAlertTransitioningAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				042820522A04E6680090D217 /* ViewController */,
+				0428204E2A04DD0A0090D217 /* YZXAlertTransitioningAnimate.swift */,
+			);
+			path = YZXAlertTransitioningAnimate;
+			sourceTree = "<group>";
+		};
+		042820522A04E6680090D217 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0428204C2A04DC9C0090D217 /* YZXAlertTransitioningAnimateViewController.swift */,
+				042820502A04E37F0090D217 /* YZXAlertTestViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		042820532A04E6910090D217 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04AF021629F7E18E000964A6 /* YZXRectTranslationAnimationTestView.swift */,
+				04AF021429F7DAEC000964A6 /* YZXRectTranslationAnimationViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		042820542A04E6A80090D217 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				04AF020F29F7C886000964A6 /* YZXUnlimitedRotationViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		042820552A04E6C90090D217 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04FE595329F23B5100BD5D2D /* YZXCircleViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		04AF020A29F7C871000964A6 /* YZXUnlimitedRotationView */ = {
+			isa = PBXGroup;
+			children = (
+				042820542A04E6A80090D217 /* ViewController */,
 				040D481C2A03BD4900D51CB1 /* YZXUnlimitedRotationViewCenterOutExtension.swift */,
 				04AF020B29F7C871000964A6 /* YZXPageControl.swift */,
 				04AF020C29F7C871000964A6 /* YZXUnlimitedRotationView.swift */,
@@ -74,9 +123,8 @@
 		04AF021129F7CD45000964A6 /* YZXAnimationTest */ = {
 			isa = PBXGroup;
 			children = (
+				042820532A04E6910090D217 /* ViewController */,
 				04AF021229F7CD68000964A6 /* YZXRectTranslationAnimationLayer.swift */,
-				04AF021429F7DAEC000964A6 /* YZXRectTranslationAnimationViewController.swift */,
-				04AF021629F7E18E000964A6 /* YZXRectTranslationAnimationTestView.swift */,
 			);
 			path = YZXAnimationTest;
 			sourceTree = "<group>";
@@ -105,6 +153,7 @@
 				04FE593629F2301F00BD5D2D /* AppDelegate.swift */,
 				04FE593A29F2301F00BD5D2D /* ViewController.swift */,
 				04FE595529F2666F00BD5D2D /* YZXRandomCell.swift */,
+				0428204B2A04DC700090D217 /* YZXAlertTransitioningAnimate */,
 				04AF021129F7CD45000964A6 /* YZXAnimationTest */,
 				04AF020A29F7C871000964A6 /* YZXUnlimitedRotationView */,
 				04FE594A29F23AFD00BD5D2D /* YZXCircle */,
@@ -117,7 +166,7 @@
 		04FE594A29F23AFD00BD5D2D /* YZXCircle */ = {
 			isa = PBXGroup;
 			children = (
-				04FE595329F23B5100BD5D2D /* YZXCircleViewController.swift */,
+				042820552A04E6C90090D217 /* ViewController */,
 				04FE594B29F23AFD00BD5D2D /* UIColorExtension.swift */,
 				04FE594C29F23AFD00BD5D2D /* YZXSingleCircleView.swift */,
 				04FE594D29F23AFD00BD5D2D /* YZXPluralCircleView.swift */,
@@ -258,12 +307,15 @@
 				04AF021029F7C886000964A6 /* YZXUnlimitedRotationViewController.swift in Sources */,
 				04AF021529F7DAEC000964A6 /* YZXRectTranslationAnimationViewController.swift in Sources */,
 				040D481D2A03BD4900D51CB1 /* YZXUnlimitedRotationViewCenterOutExtension.swift in Sources */,
+				0428204D2A04DC9C0090D217 /* YZXAlertTransitioningAnimateViewController.swift in Sources */,
 				04AF020D29F7C871000964A6 /* YZXPageControl.swift in Sources */,
 				04FE595029F23AFD00BD5D2D /* YZXSingleCircleView.swift in Sources */,
 				04FE593B29F2301F00BD5D2D /* ViewController.swift in Sources */,
 				04FE595429F23B5100BD5D2D /* YZXCircleViewController.swift in Sources */,
+				0428204F2A04DD0A0090D217 /* YZXAlertTransitioningAnimate.swift in Sources */,
 				04FE595629F2666F00BD5D2D /* YZXRandomCell.swift in Sources */,
 				04AF020E29F7C871000964A6 /* YZXUnlimitedRotationView.swift in Sources */,
+				042820512A04E37F0090D217 /* YZXAlertTestViewController.swift in Sources */,
 				04FE595129F23AFD00BD5D2D /* YZXPluralCircleView.swift in Sources */,
 				04AF021729F7E18E000964A6 /* YZXRectTranslationAnimationTestView.swift in Sources */,
 				04FE593729F2301F00BD5D2D /* AppDelegate.swift in Sources */,
